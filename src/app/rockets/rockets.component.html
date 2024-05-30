@@ -1,0 +1,12 @@
+<div class="container stars">
+  <h1>Rockets</h1>
+  <p>Discover the powerful rockets developed by SpaceX, including the Falcon 9 and the Starship, which are revolutionizing space travel.</p>
+  <ul class="rocket-list">
+    <li *ngFor="let rocket of rockets">
+      <div class="details">
+        <h2>{{ rocket.name }}</h2>
+        <p>First Flight: {{ rocket.first_flight }}</p>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #000022 0%, #000011 100%);
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  @keyframes stars {
+    from { background-position: 0 0; }
+    to { background-position: -10000px 5000px; }
+  }
+  
+  .stars::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
+    animation: stars 200s linear infinite;
+    z-index: 0;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 1em;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 0.5em 0;
+    }
+  
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  }
+  
+  

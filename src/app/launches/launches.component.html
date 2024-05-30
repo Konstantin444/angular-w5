@@ -1,0 +1,12 @@
+<div class="container stars">
+  <h1>Upcoming Launches</h1>
+  <p>Stay updated with the upcoming SpaceX launches. Find out the dates, times, and details about the next missions aiming to explore the final frontier.</p>
+  <ul class="launch-list">
+    <li *ngFor="let launch of launches">
+      <div class="details">
+        <h2>{{ launch.name }}</h2>
+        <p>Date: {{ launch.date_local | date:'medium' }}</p>
+      </div>
+    </li>
+  </ul>
+</div>

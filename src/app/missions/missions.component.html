@@ -1,0 +1,12 @@
+<div class="container stars">
+  <h1>Missions</h1>
+  <p>Explore the various missions SpaceX has undertaken, from cargo resupply missions to ambitious Mars exploration plans.</p>
+  <ul class="mission-list">
+    <li *ngFor="let mission of missions">
+      <div class="details">
+        <h2>{{ mission.name }}</h2>
+        <p>{{ mission.description }}</p>
+      </div>
+    </li>
+  </ul>
+</div>

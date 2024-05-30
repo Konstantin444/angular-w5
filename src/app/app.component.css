@@ -1,0 +1,47 @@
+nav {
+    background-color: #0D1B2A;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    margin: 0 1em;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  nav a.active {
+    color: #1B998B;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #1B998B;
+  }
+  
+  .app-header {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  .app-header h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    color: #FFFFFF;
+  }
+  
+  .app-header p {
+    font-size: 1.2em;
+    color: #6C757D;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  
+  
