@@ -31,27 +31,5 @@ body {
     animation: stars 200s linear infinite;
     z-index: 0;
   }
-
-  @media (max-width: 600px) {
-    .container {
-      padding: 1em;
-    }
-  
-    nav {
-      flex-direction: column;
-    }
-  
-    nav a {
-      margin: 0.5em 0;
-    }
-  
-    header h1 {
-      font-size: 2em;
-    }
-  
-    header p {
-      font-size: 1em;
-    }
-  }
   
   

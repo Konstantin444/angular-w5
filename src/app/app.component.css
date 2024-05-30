@@ -43,5 +43,21 @@ nav {
     margin: 0 auto;
   }
 
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
   
+    nav a {
+      margin: 0.5em 0;
+    }
+  
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  }
   

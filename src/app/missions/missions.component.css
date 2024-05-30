@@ -50,3 +50,22 @@
     color: #6C757D;
   }
   
+  @media (max-width: 600px) {
+    .container {
+      padding: 1em;
+    }
+  
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    li .details h2 {
+      font-size: 1.1em;
+    }
+  
+    li .details p {
+      font-size: 0.9em;
+    }
+  }
+  
